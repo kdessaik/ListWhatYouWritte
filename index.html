@@ -13,19 +13,17 @@
 </head>
 <body id="body">
     <h1 class="text-center mb-3"> <u> Write a Word and Add Your</u></h1>
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px">My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn"> Add</span>
+      </div>
+      <ul id="myUL">
+        
+      </ul>
     
-    <form>
-        <div class="form-group text-center">
-          <label for="exampleInputEmail1 " class="text-primary" id="text">Add Item</label>
-          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter Your word">
-          </div>
-        </form>
-        <button type="button" class="btn btn-info" >
-            Add
-        </button>
-        <button type="button" class="btn btn-info btn btn-danger" id="button2" >
-            Remove
-        </button>
+    
+        <script src="./javascript.js"></script>
     
 </body>
 </html>
