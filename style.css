@@ -103,7 +103,7 @@ body {
   
   /* Style the header */
   .header {
-    background-color: #90f4ff;
+    background-color: #ffc07d;
     padding: 30px 40px;
     color: white;
     text-align: center;
@@ -142,7 +142,7 @@ body {
   }
   
   .addBtn:hover {
-    background-color: #bbb;
+    background-color: rgb(212, 10, 223);
   }
   div{
       margin-left: 40%;
@@ -150,10 +150,19 @@ body {
   }
   .mb-3{
       margin-left: 50%;
-      width: 100%;
+      width: 90%;
+      color: #ff00e6;
+      font-weight: bold;
+      font-size: 40px;
   }
   .header,#myUL{
     margin-left: 50%;
     width: 100%;
     border-radius: 10%;
+  }
+  #myUL{
+    margin-top: 10%;
+  }
+  body{
+    background-image: url(./images/0x0.jpg);
   }
