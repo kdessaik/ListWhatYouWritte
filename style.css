@@ -25,6 +25,8 @@
 body {
     margin: 0;
     min-width: 250px;
+    width: 50%;
+    text-align: center;
   }
   
   /* Include the padding and border in an element's total width and height */
@@ -95,13 +97,13 @@ body {
   }
   
   .close:hover {
-    background-color: #f44336;
+    background-color: #a10792;
     color: white;
   }
   
   /* Style the header */
   .header {
-    background-color: #f44336;
+    background-color: #90f4ff;
     padding: 30px 40px;
     color: white;
     text-align: center;
@@ -141,4 +143,17 @@ body {
   
   .addBtn:hover {
     background-color: #bbb;
+  }
+  div{
+      margin-left: 40%;
+      text-align: center;
+  }
+  .mb-3{
+      margin-left: 50%;
+      width: 100%;
+  }
+  .header,#myUL{
+    margin-left: 50%;
+    width: 100%;
+    border-radius: 10%;
   }
